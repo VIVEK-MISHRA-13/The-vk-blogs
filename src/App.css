@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    overflow-x: hidden;
+
+
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+:root{
+    
+    --heading:black;
+    --hash:blue;
+    --body:white;
+
+
+}
+
+.light-theme{
+ 
+    --heading:#6674cc;
+    --s-heading:#363a45;
+    --title:#4a4f56;
+    --hash:blue;
+    --body:white;
+    --bg-blog:#f7f8fc;
+
+    --bg-nav:#f7f8fc;
+    --text:#777c85;
+    --nav-br:white;
+    --img-col:#6674cc;
+    
+    
+    
+}
+
+.dark-theme{
+    
+    --img-col:white;
+    --nav-br:rgb(60, 59, 59);
+    --heading:#6E96CF;
+    --s-heading:#e8e6e3;
+    --title:#e8e6e3;
+    --hash:blue;
+    --bg-blog:#1b1d1e;
+    --body:black;
+    --bg-nav:#131516;
+    --text:#989082;
+
+ 
+
+
+
+
+}
+
